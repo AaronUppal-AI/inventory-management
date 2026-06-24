@@ -68,6 +68,12 @@ Mock data includes:
 
 Data files: `server/data/*.json`
 
+## Continuous Integration
+
+This repo uses [Claude Code GitHub Actions](.github/workflows/) for automation:
+- `claude-code-review.yml` automatically reviews every pull request.
+- `claude.yml` responds to `@claude` mentions in issues and PR comments.
+
 ## Production Build
 
 ```bash
